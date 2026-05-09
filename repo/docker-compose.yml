@@ -21,9 +21,9 @@ services:
     environment:
       MS_MONGO_URL: mongodb://mongo:27017/mergestream
       MS_HOST: 0.0.0.0
-      MS_PORT: 4000
+      MS_PORT: 3000
     ports:
-      - "4000:4000"
+      - "3000:3000"
     volumes:
       - .:/workspace/repo
     command: ["bash", "-lc", "npm ci && npm start"]
