@@ -1,0 +1,32 @@
+# Convenience compose file for running MergeStream against a real MongoDB.
+# The automated test harness does NOT require this — tests use
+# mongodb-memory-server. This compose file is only for manual verification
+# when you want a containerised mongod + the Node server side by side.
+services:
+  mongo:
+    image: mongo:6
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mergestream-mongo:/data/db
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace/repo
+    depends_on:
+      - mongo
+    environment:
+      MS_MONGO_URL: mongodb://mongo:27017/mergestream
+      MS_HOST: 0.0.0.0
+      MS_PORT: 4000
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/workspace/repo
+    command: ["bash", "-lc", "npm ci && npm start"]
+
+volumes:
+  mergestream-mongo:

@@ -1,0 +1,26 @@
+.table { width: 100%; border-collapse: collapse; font-size: 0.9rem; margin-top: 1rem; }
+.table th { text-align: left; padding: 0.5rem 0.75rem; background: #f3f4f6; border-bottom: 2px solid #e5e7eb; font-weight: 600; }
+.table td { padding: 0.5rem 0.75rem; border-bottom: 1px solid #e5e7eb; vertical-align: middle; }
+.roleBadge { padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; }
+.roleBadge.admin { background: #dbeafe; color: #1d4ed8; }
+.roleBadge.maintainer { background: #ede9fe; color: #5b21b6; }
+.roleBadge.developer { background: #d1fae5; color: #065f46; }
+.actions { display: flex; gap: 0.4rem; align-items: center; flex-wrap: wrap; }
+.roleSelect { padding: 2px 4px; border: 1px solid #d1d5db; border-radius: 4px; font-size: 0.8rem; margin-right: 4px; }
+.saveBtn { padding: 3px 10px; background: #3b82f6; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.8rem; }
+.saveBtn:disabled { opacity: 0.5; cursor: not-allowed; }
+.actionBtn { padding: 3px 10px; background: none; border: 1px solid #6b7280; color: #374151; border-radius: 4px; cursor: pointer; font-size: 0.8rem; }
+.deactivateBtn { padding: 3px 10px; background: none; border: 1px solid #f59e0b; color: #d97706; border-radius: 4px; cursor: pointer; font-size: 0.8rem; }
+.deactivateBtn:disabled { opacity: 0.5; cursor: not-allowed; }
+.deleteBtn { padding: 3px 10px; background: none; border: 1px solid #ef4444; color: #ef4444; border-radius: 4px; cursor: pointer; font-size: 0.8rem; }
+.deleteBtn:disabled { opacity: 0.5; cursor: not-allowed; }
+.pwReset { display: flex; align-items: center; gap: 4px; }
+.pwInput { padding: 2px 6px; border: 1px solid #d1d5db; border-radius: 4px; font-size: 0.8rem; width: 140px; }
+.cancelFormBtn { padding: 3px 10px; background: none; border: 1px solid #d1d5db; color: #6b7280; border-radius: 4px; cursor: pointer; font-size: 0.8rem; }
+.createOpenBtn { margin-bottom: 1rem; padding: 6px 14px; background: #3b82f6; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 0.9rem; }
+.createForm { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 8px; padding: 1rem; margin-bottom: 1.25rem; }
+.createForm h3 { margin: 0 0 0.75rem; font-size: 1rem; }
+.formRow { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+.input { padding: 4px 8px; border: 1px solid #d1d5db; border-radius: 4px; font-size: 0.85rem; }
+.select { padding: 4px 8px; border: 1px solid #d1d5db; border-radius: 4px; font-size: 0.85rem; }
+.formError { color: #ef4444; font-size: 0.85rem; margin: 0 0 0.5rem; }

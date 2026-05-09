@@ -1,0 +1,6 @@
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
+.card { background: white; border: 1px solid #e5e7eb; border-radius: 8px; padding: 1rem; }
+.card h3 { margin: 0 0 0.75rem; font-size: 0.9rem; color: #374151; text-transform: uppercase; letter-spacing: 0.05em; }
+.metricsTable { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.metricsTable td { padding: 4px 0; color: #374151; }
+.metricsTable td:last-child { font-weight: 600; text-align: right; }

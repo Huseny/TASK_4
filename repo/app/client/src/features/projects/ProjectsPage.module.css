@@ -1,0 +1,31 @@
+.list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1rem; }
+.card { background: white; border: 1px solid #e5e7eb; border-radius: 8px; padding: 1rem; }
+.cardHeader { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+.name { font-weight: 600; color: #1e293b; text-decoration: none; font-size: 1rem; }
+.statusDot { width: 10px; height: 10px; border-radius: 50%; }
+.active { background: #22c55e; }
+.inactive { background: #d1d5db; }
+.desc { color: #6b7280; font-size: 0.85rem; margin: 0 0 0.75rem; }
+.meta { display: flex; gap: 1rem; font-size: 0.8rem; color: #374151; margin-bottom: 0.75rem; }
+.actions { display: flex; gap: 0.75rem; }
+.link { color: #3b82f6; font-size: 0.85rem; text-decoration: none; }
+.pageHeader { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; }
+.pageHeader h2 { margin: 0; }
+.createBtn { padding: 6px 14px; background: #3b82f6; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 0.9rem; }
+.createForm { background: white; border: 1px solid #e5e7eb; border-radius: 8px; padding: 1.25rem; margin-bottom: 1.25rem; }
+.createForm h3 { margin: 0 0 0.75rem; font-size: 1rem; }
+.formGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 1rem; }
+.formGrid label { display: flex; flex-direction: column; gap: 4px; font-size: 0.8rem; font-weight: 600; color: #374151; }
+.fullWidth { grid-column: 1 / -1; }
+.input { padding: 6px 10px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 0.85rem; font-weight: 400; }
+.formActions { display: flex; gap: 0.5rem; }
+.saveBtn { padding: 6px 16px; background: #3b82f6; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 0.9rem; }
+.saveBtn:disabled { opacity: 0.5; cursor: not-allowed; }
+.cancelBtn { padding: 6px 14px; background: none; border: 1px solid #d1d5db; color: #6b7280; border-radius: 6px; cursor: pointer; font-size: 0.9rem; }
+.formError { color: #ef4444; font-size: 0.85rem; margin: 0 0 0.5rem; }
+.membersGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 1rem; }
+.memberBox { border: 1px solid #e5e7eb; border-radius: 6px; padding: 0.75rem; }
+.memberBoxLabel { display: block; font-size: 0.8rem; font-weight: 600; color: #374151; margin-bottom: 0.5rem; }
+.memberCheckList { display: flex; flex-direction: column; gap: 4px; max-height: 140px; overflow-y: auto; }
+.memberCheckItem { display: flex; align-items: center; gap: 6px; font-size: 0.85rem; cursor: pointer; }
+.memberSub { color: #9ca3af; }

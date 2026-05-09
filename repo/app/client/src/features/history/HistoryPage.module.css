@@ -1,0 +1,18 @@
+.runList { display: flex; flex-direction: column; gap: 0.5rem; }
+.runRow { border: 1px solid #e5e7eb; border-radius: 6px; overflow: hidden; }
+.runHeader { display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem 1rem; cursor: pointer; background: white; }
+.runHeader:hover { background: #f9fafb; }
+.branch { font-family: monospace; font-size: 0.9rem; }
+.sha { color: #9ca3af; font-family: monospace; font-size: 0.85rem; }
+.time { color: #6b7280; font-size: 0.85rem; margin-left: auto; }
+.conflictLink { color: #d97706; font-size: 0.85rem; font-weight: 600; text-decoration: none; }
+.toggle { color: #9ca3af; font-size: 0.75rem; margin-left: 0.5rem; }
+.logs { background: #0f172a; color: #e2e8f0; padding: 0.75rem 1rem; }
+.attempt { margin-bottom: 0.5rem; }
+.attemptHeader { color: #94a3b8; font-size: 0.8rem; margin-bottom: 0.25rem; display: flex; align-items: center; gap: 0.5rem; }
+.truncatedBadge { background: #92400e; color: #fef3c7; padding: 1px 6px; border-radius: 4px; font-size: 0.75rem; }
+.logPre { margin: 0; font-family: monospace; font-size: 0.8rem; white-space: pre-wrap; word-break: break-all; max-height: 300px; overflow-y: auto; }
+.stderr { color: #fca5a5; }
+.cancelBtn { padding: 2px 8px; background: none; border: 1px solid #d97706; color: #d97706; border-radius: 4px; cursor: pointer; font-size: 0.8rem; }
+.cancelBtn:disabled { opacity: 0.5; cursor: not-allowed; }
+.loadingLogs { color: #94a3b8; font-size: 0.85rem; padding: 0.5rem 0; margin: 0; }

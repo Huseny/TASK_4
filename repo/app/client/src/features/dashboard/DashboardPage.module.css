@@ -1,0 +1,22 @@
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
+.queueStats { display: flex; gap: 1.5rem; color: #6b7280; font-size: 0.9rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+.card { background: white; border: 1px solid #e5e7eb; border-radius: 8px; padding: 1rem; }
+.card.inactive { opacity: 0.6; }
+.cardHeader { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+.projectName { font-weight: 600; color: #1e293b; text-decoration: none; }
+.projectName:hover { text-decoration: underline; }
+.runInfo { display: flex; justify-content: space-between; color: #374151; font-size: 0.9rem; margin-bottom: 0.75rem; }
+.branch { font-family: monospace; background: #f3f4f6; padding: 1px 6px; border-radius: 4px; }
+.time { color: #9ca3af; }
+.noRuns { color: #9ca3af; font-size: 0.85rem; margin-bottom: 0.75rem; }
+.cardActions { display: flex; justify-content: space-between; align-items: center; margin-top: 0.5rem; }
+.link { color: #3b82f6; text-decoration: none; font-size: 0.85rem; }
+.triggerBtn { padding: 4px 12px; background: #3b82f6; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.85rem; }
+.triggerBtn:disabled { background: #9ca3af; cursor: not-allowed; }
+.error { color: #b91c1c; }
+.triggerPicker { display: flex; gap: 0.4rem; align-items: center; }
+.triggerSelect { padding: 3px 6px; border: 1px solid #d1d5db; border-radius: 4px; font-size: 0.85rem; }
+.triggerCancel { background: none; border: none; color: #6b7280; font-size: 0.8rem; cursor: pointer; padding: 0; text-decoration: underline; }
+.triggerLoading { color: #9ca3af; font-size: 0.85rem; }
+.triggerEmpty { color: #9ca3af; font-size: 0.85rem; }

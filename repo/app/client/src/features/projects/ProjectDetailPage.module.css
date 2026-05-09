@@ -1,0 +1,36 @@
+.header { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 0.25rem; }
+.header h2 { margin: 0; }
+.headerLinks { display: flex; gap: 1rem; }
+.link { color: #3b82f6; text-decoration: none; font-size: 0.9rem; }
+.description { color: #64748b; margin: 0 0 1.25rem; }
+.section { background: white; border: 1px solid #e5e7eb; border-radius: 8px; padding: 1.25rem; margin-bottom: 1.25rem; }
+.section h3 { margin: 0 0 1rem; font-size: 1rem; color: #1e293b; }
+.fieldGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 1rem; }
+.fieldGrid label { display: flex; flex-direction: column; gap: 4px; font-size: 0.8rem; font-weight: 600; color: #374151; }
+.fullWidth { grid-column: 1 / -1; }
+.checkboxLabel { flex-direction: row !important; align-items: center; gap: 8px !important; }
+.input { padding: 6px 10px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 0.9rem; font-weight: 400; }
+.input:disabled { background: #f9fafb; color: #6b7280; }
+.saveBtn { padding: 6px 16px; background: #3b82f6; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 0.9rem; }
+.saveBtn:disabled { opacity: 0.5; cursor: not-allowed; }
+.error { color: #ef4444; font-size: 0.85rem; margin: 0 0 0.75rem; }
+.saved { color: #16a34a; font-size: 0.85rem; margin: 0 0 0.75rem; }
+.addBranch { display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.75rem; flex-wrap: wrap; }
+.select { padding: 6px 10px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 0.85rem; }
+.branchTable { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.branchTable td { padding: 0.4rem 0.5rem; border-bottom: 1px solid #f3f4f6; }
+.branchActions { display: flex; gap: 0.4rem; }
+.actionBtn { padding: 2px 8px; background: none; border: 1px solid #6b7280; color: #374151; border-radius: 4px; cursor: pointer; font-size: 0.8rem; }
+.actionBtn:disabled { opacity: 0.5; cursor: not-allowed; }
+.deleteBtn { padding: 2px 8px; background: none; border: 1px solid #ef4444; color: #ef4444; border-radius: 4px; cursor: pointer; font-size: 0.8rem; }
+.deleteBtn:disabled { opacity: 0.5; cursor: not-allowed; }
+.active { color: #16a34a; font-size: 0.8rem; font-weight: 600; }
+.inactive { color: #9ca3af; font-size: 0.8rem; }
+.sha { color: #9ca3af; font-family: monospace; font-size: 0.8rem; }
+.membersGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 1rem; }
+.memberSelect { border: 1px solid #e5e7eb; border-radius: 6px; padding: 0.75rem; }
+.memberLabel { display: block; font-size: 0.8rem; font-weight: 600; color: #374151; margin-bottom: 0.5rem; }
+.memberList { display: flex; flex-direction: column; gap: 4px; max-height: 160px; overflow-y: auto; }
+.memberItem { display: flex; align-items: center; gap: 6px; font-size: 0.85rem; cursor: pointer; }
+.memberUsername { color: #9ca3af; }
+.memberEmpty { font-size: 0.85rem; color: #9ca3af; }

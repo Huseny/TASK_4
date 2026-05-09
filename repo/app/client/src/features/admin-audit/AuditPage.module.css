@@ -1,0 +1,11 @@
+.filters { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem; align-items: flex-end; }
+.filterLabel { display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.8rem; font-weight: 500; color: #374151; }
+.filterInput { padding: 0.3rem 0.6rem; border: 1px solid #d1d5db; border-radius: 4px; font-size: 0.85rem; }
+.searchBtn { padding: 0.4rem 1rem; background: #3b82f6; color: white; border: none; border-radius: 4px; cursor: pointer; height: 32px; }
+.tableWrap { overflow-x: auto; }
+.table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.table th { text-align: left; padding: 0.5rem 0.75rem; background: #f3f4f6; border-bottom: 2px solid #e5e7eb; font-weight: 600; color: #374151; }
+.table td { padding: 0.5rem 0.75rem; border-bottom: 1px solid #e5e7eb; }
+.table tr.failure td { background: #fff5f5; }
+.ts { white-space: nowrap; color: #6b7280; }
+.empty { text-align: center; color: #9ca3af; padding: 1.5rem; }

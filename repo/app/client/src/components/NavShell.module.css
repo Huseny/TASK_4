@@ -1,0 +1,12 @@
+.shell { display: flex; flex-direction: column; min-height: 100vh; }
+.nav { display: flex; align-items: center; gap: 1.5rem; padding: 0.75rem 1.5rem; background: #1e293b; color: #f1f5f9; flex-wrap: wrap; }
+.brand { font-weight: 700; font-size: 1.1rem; color: #f1f5f9; margin-right: 1rem; }
+.navLinks { list-style: none; display: flex; gap: 1rem; padding: 0; margin: 0; flex: 1; }
+.navLinks a { color: #94a3b8; text-decoration: none; padding: 0.25rem 0; }
+.navLinks a:hover, .navLinks a.active { color: #f1f5f9; border-bottom: 2px solid #3b82f6; }
+.badge { background: #ef4444; color: white; border-radius: 999px; padding: 1px 6px; font-size: 0.7rem; font-weight: 700; margin-left: 4px; }
+.userArea { display: flex; align-items: center; gap: 0.75rem; margin-left: auto; }
+.username { color: #94a3b8; font-size: 0.9rem; }
+.logoutBtn { background: none; border: 1px solid #475569; color: #94a3b8; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 0.85rem; }
+.logoutBtn:hover { border-color: #94a3b8; color: #f1f5f9; }
+.main { flex: 1; padding: 1.5rem; }

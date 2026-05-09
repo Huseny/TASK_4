@@ -1,0 +1,10 @@
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+.markAllBtn { background: none; border: 1px solid #d1d5db; padding: 4px 12px; border-radius: 4px; cursor: pointer; font-size: 0.85rem; color: #374151; }
+.list { display: flex; flex-direction: column; gap: 0.5rem; }
+.item { border: 1px solid #e5e7eb; border-radius: 6px; padding: 0.75rem 1rem; background: white; }
+.item.unread { border-left: 3px solid #3b82f6; }
+.itemHeader { display: flex; justify-content: space-between; margin-bottom: 0.25rem; }
+.title { font-weight: 600; color: #1e293b; }
+.time { color: #9ca3af; font-size: 0.8rem; }
+.message { margin: 0 0 0.5rem; color: #374151; font-size: 0.9rem; }
+.readBtn { background: none; border: none; color: #3b82f6; cursor: pointer; font-size: 0.8rem; padding: 0; }

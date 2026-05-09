@@ -1,0 +1,8 @@
+# Exclude heavy directories from Docker build context
+node_modules
+app/client/node_modules
+app/server/node_modules
+app/client/dist
+app/server/dist
+.cache
+.git

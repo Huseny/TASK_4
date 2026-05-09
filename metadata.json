@@ -1,0 +1,9 @@
+{
+  "prompt": "string",
+  "project_type": "string",
+  "frontend_language": "string",
+  "backend_language": "string",
+  "frontend_framework": "string",
+  "backend_framework": "string",
+  "database": "string"
+}
